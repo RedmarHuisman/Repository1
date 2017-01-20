@@ -1196,3 +1196,20 @@ remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
 To https://github.com/Lumphie/Fairytale_test
    ed9bfca..aa1aed7  master -> master
 
+Travis CI
+sudo: require
+
+install:
+  - sudo apt-get install cowsay
+
+script: 
+  - export PATH=/usr/bin:/bin:/usr/games
+  - cowsay "Howdy"
+  - cowsay "Howdy" | cowsay -n
+  - cowsay "Howdy" | cowsay -n | cowsay -n
+  - cowsay "Howdy" | cowsay -n | cowsay -n | cowsay -n
+  - cowsay "Moo" | cowsay -n | cowsay -n | cowsay -n | cowsay -n
+  - cowsay "Moo" | cowsay -n | cowsay -n | cowsay -n | cowsay -n | cowsay -n
+  - cowsay "Moo" | cowsay -n -f stegosaurus
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
