@@ -9,6 +9,6 @@ script:
   - cowsay "Howdy" | cowsay -n
   - cowsay "Howdy" | cowsay -n | cowsay -n
   - cowsay "Howdy" | cowsay -n | cowsay -n | cowsay -n
-  - cowsay "Howdy" | cowsay -n | cowsay -n | cowsay -n | cowsay -n
-  - cowsay "Howdy" | cowsay -n | cowsay -n | cowsay -n | cowsay -n | cowsay -n
-  - cowsay "Howdy" | cowsay -n -f stegosaurus
+  - cowsay "Moo" | cowsay -n | cowsay -n | cowsay -n | cowsay -n
+  - cowsay "Moo" | cowsay -n | cowsay -n | cowsay -n | cowsay -n | cowsay -n
+  - cowsay "Moo" | cowsay -n -f stegosaurus
